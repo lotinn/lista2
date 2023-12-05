@@ -1,0 +1,69 @@
+html, body{
+    width: 470px;
+    background-color:#e6a7d9;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.fundo{
+  background-color: #e49be6c2;
+  width: 100%;
+  max-width: 1800px;
+  padding: 30px;
+  margin: 70px auto;
+  border-radius: 30px;
+}
+.container{
+    width: 460px;;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+#camporesultado{
+    width: 300px;
+    height: 30px;
+    border-radius: 1px solid black;
+    font-size: 20px;
+    outline: none;
+}
+
+#adicionar{
+
+    height: 34px;
+    width: 50px;
+    border-radius: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#limpar{
+    height: 34px;
+    width: 90px;
+    border-radius: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#limpar2{
+    text-align: center;
+    margin: auto;
+    height: 34px;
+    width: 460px;
+    border-radius: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.paragrafoestilo {
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.tarefas{
+    margin-top: 20px;
+}
