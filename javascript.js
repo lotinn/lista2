@@ -1,26 +1,32 @@
 let botaoadiconar = document.getElementById("adicionar");
 let containertarefa = document.getElementById("containertarefa");
 let campoinput = document.getElementById("camporesultado")
-let botaolimpar = document.getElementById("limpar");
-let botaolimpar2 = document.getElementById("limpar2")
+let botaoterminar = document.getElementById("terminar");
+let botaoapagar = document.getElementById("apagar");
 let tarefacompleta = document.getElementById("containertarefacompleta")
 
-botaoadiconar.addEventListener("click", function(){
+ 
+botaoadiconar.addEventListener("click", function () {
     let paragrafo = document.createElement("p");
     paragrafo.classList.add('paragrafoestilo');
-    paragrafo.innerText = campoinput.value; 
+    paragrafo.innerText = campoinput.value;
     containertarefa.appendChild(paragrafo);
-    campoinput.value = ""
-    paragrafo.addEventListener("click", function(){
+    campoinput.value = "";
+    campoinput.focus()
+
+    paragrafo.addEventListener("click", function () {
         containertarefa.removeChild(paragrafo);
         tarefacompleta.appendChild(paragrafo);
+        campoinput.focus();
     })
-    botaolimpar.addEventListener("click", function(){
+    botaoterminar.addEventListener("click", function () {
         containertarefa.removeChild(paragrafo);
         tarefacompleta.appendChild(paragrafo);
+        campoinput.focus();
     })
-    botaolimpar2.addEventListener("click", function(){
+    botaoapagar.addEventListener("click", function () {
         tarefacompleta.removeChild(paragrafo);
+        campoinput.focus();
     })
-    
+
 })
