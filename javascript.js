@@ -1,4 +1,4 @@
-// Seleção de elementos do DOM
+
 let botaoadiconar = document.getElementById("adicionar");
 let containertarefa = document.getElementById("containertarefa");
 let campoinput = document.getElementById("camporesultado");
