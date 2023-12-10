@@ -15,7 +15,7 @@ let botaoadiconar = document.getElementById("adicionar");
 
             paragrafo.addEventListener("click", function () {
                 containertarefa.removeChild(paragrafo);
-                tarefacompleta.appendChild(paragrafo);   //adicionar paragrafo quando um item vai para a lista
+                tarefacompleta.appendChild(paragrafo);   
                 campoinput.focus();
             });
         });
